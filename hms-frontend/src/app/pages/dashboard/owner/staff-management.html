@@ -1,0 +1,245 @@
+<div class="staff-section">
+
+  <!-- Toast notifications -->
+  <div class="toast success" *ngIf="successMsg">✅ {{ successMsg }}</div>
+  <div class="toast error" *ngIf="error">❌ {{ error }} <button (click)="error=''">✕</button></div>
+
+  <!-- Header -->
+  <div class="section-header">
+    <div>
+      <h2>Staff Management</h2>
+      <p class="section-sub">Manage your hotel staff and departments</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn-primary" (click)="openCreateStaff()">+ Add Staff</button>
+      <button class="btn-secondary" (click)="showDeptModal=true">+ Department</button>
+    </div>
+  </div>
+
+  <!-- KPI Row -->
+  <div class="staff-kpi-row">
+    <div class="staff-kpi"><span class="kpi-num">{{ staff.length }}</span><span class="kpi-lbl">Total Staff</span></div>
+    <div class="staff-kpi active"><span class="kpi-num">{{ activeStaffCount }}</span><span class="kpi-lbl">Active</span></div>
+    <div class="staff-kpi inactive"><span class="kpi-num">{{ inactiveStaffCount }}</span><span class="kpi-lbl">Inactive</span></div>
+    <div class="staff-kpi dept"><span class="kpi-num">{{ departments.length }}</span><span class="kpi-lbl">Departments</span></div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn" [class.active]="activeTab==='staff'" (click)="activeTab='staff'">👥 Staff Members</button>
+    <button class="tab-btn" [class.active]="activeTab==='departments'" (click)="activeTab='departments'">🏢 Departments</button>
+  </div>
+
+  <!-- Staff Tab -->
+  <div *ngIf="activeTab==='staff'">
+    <!-- Filters -->
+    <div class="filters-row">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" placeholder="Search by name or email…" [(ngModel)]="searchQuery" (input)="applyFilters()" />
+      </div>
+      <select class="filter-select" [(ngModel)]="filterRole" (change)="applyFilters()">
+        <option value="">All Roles</option>
+        <option *ngFor="let r of roles" [value]="r">{{ r }}</option>
+      </select>
+      <select class="filter-select" [(ngModel)]="filterDept" (change)="applyFilters()">
+        <option value="">All Departments</option>
+        <option *ngFor="let d of departments" [value]="d.id">{{ d.name }}</option>
+      </select>
+    </div>
+
+    <!-- Loading -->
+    <div class="loading-state" *ngIf="loading">
+      <div class="spinner"></div><span>Loading staff…</span>
+    </div>
+
+    <!-- Mobile Cards -->
+    <div class="staff-cards" *ngIf="!loading">
+      <div class="staff-card" *ngFor="let s of filteredStaff">
+        <div class="avatar" [style.background]="'hsl('+((s.id*47)%360)+',60%,55%)'">
+          {{ s.firstName[0] }}{{ s.lastName[0] }}
+        </div>
+        <div class="staff-card-info">
+          <div class="staff-card-name">{{ s.firstName }} {{ s.lastName }}</div>
+          <div class="staff-card-email">{{ s.email }}</div>
+          <div class="staff-card-meta">
+            <span class="role-chip" [attr.data-role]="s.role.toLowerCase()">{{ s.role }}</span>
+            <span class="status-badge" [class.active]="s.isActive" [class.inactive]="!s.isActive">{{ s.isActive ? 'Active' : 'Inactive' }}</span>
+          </div>
+        </div>
+        <div class="staff-card-actions">
+          <button class="icon-btn edit" (click)="openEditStaff(s)" title="Edit">✏️</button>
+          <button class="icon-btn delete" (click)="confirmDelete(s.id)" title="Delete">🗑️</button>
+        </div>
+      </div>
+      <div *ngIf="filteredStaff.length === 0" style="text-align:center;color:#94a3b8;padding:2rem;font-size:.9rem">No staff members found</div>
+    </div>
+
+    <!-- Desktop Table -->
+    <div class="table-wrap" *ngIf="!loading">
+      <table class="staff-table">
+        <thead>
+          <tr>
+            <th>Staff Member</th>
+            <th>Role</th>
+            <th>Department</th>
+            <th>Contact</th>
+            <th>Hire Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of filteredStaff" class="table-row">
+            <td>
+              <div class="staff-cell">
+                <div class="avatar" [style.background]="'hsl('+((s.id*47)%360)+',60%,55%)'">
+                  {{ s.firstName[0] }}{{ s.lastName[0] }}
+                </div>
+                <div>
+                  <div class="staff-name">{{ s.firstName }} {{ s.lastName }}</div>
+                  <div class="staff-email">{{ s.email }}</div>
+                </div>
+              </div>
+            </td>
+            <td><span class="role-chip" [attr.data-role]="s.role.toLowerCase()">{{ s.role }}</span></td>
+            <td>{{ s.departmentName || getDeptName(s.departmentId) }}</td>
+            <td class="contact-cell">{{ s.phone || '—' }}</td>
+            <td>{{ s.hireDate | date:'MMM d, y' }}</td>
+            <td>
+              <span class="status-badge" [class.active]="s.isActive" [class.inactive]="!s.isActive">
+                {{ s.isActive ? 'Active' : 'Inactive' }}
+              </span>
+            </td>
+            <td>
+              <div class="action-btns">
+                <button class="icon-btn edit" (click)="openEditStaff(s)" title="Edit">✏️</button>
+                <button class="icon-btn delete" (click)="confirmDelete(s.id)" title="Delete">🗑️</button>
+              </div>
+            </td>
+          </tr>
+          <tr *ngIf="filteredStaff.length === 0">
+            <td colspan="7" class="empty-row">No staff members found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Departments Tab -->
+  <div *ngIf="activeTab==='departments'">
+    <div class="dept-grid" *ngIf="!loading">
+      <div class="dept-card" *ngFor="let d of departments">
+        <div class="dept-icon">🏢</div>
+        <div class="dept-info">
+          <div class="dept-name">{{ d.name }}</div>
+          <div class="dept-desc">{{ d.description || 'No description' }}</div>
+        </div>
+        <div class="dept-count">
+          <span class="count-num">{{ d.staffCount }}</span>
+          <span class="count-lbl">members</span>
+        </div>
+      </div>
+      <div class="dept-card add-card" (click)="showDeptModal=true">
+        <div class="add-icon">+</div>
+        <span>Add Department</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Staff Modal -->
+<div class="modal-overlay" *ngIf="showStaffModal" (click)="closeStaffModal()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>{{ editingStaff ? 'Edit Staff Member' : 'Add New Staff Member' }}</h3>
+      <button class="modal-close" (click)="closeStaffModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name *</label>
+          <input [(ngModel)]="staffForm.firstName" placeholder="First name" required />
+        </div>
+        <div class="form-group">
+          <label>Last Name *</label>
+          <input [(ngModel)]="staffForm.lastName" placeholder="Last name" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email *</label>
+        <input type="email" [(ngModel)]="staffForm.email" placeholder="email@example.com" required />
+      </div>
+      <div class="form-group">
+        <label>Phone</label>
+        <input [(ngModel)]="staffForm.phone" placeholder="+1 (555) 000-0000" />
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Department *</label>
+          <select [(ngModel)]="staffForm.departmentId" required>
+            <option [value]="0" disabled>Select department</option>
+            <option *ngFor="let d of departments" [value]="d.id">{{ d.name }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Role *</label>
+          <select [(ngModel)]="staffForm.role" required>
+            <option *ngFor="let r of roles" [value]="r">{{ r }}</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group" *ngIf="editingStaff">
+        <label class="toggle-label">
+          <input type="checkbox" [(ngModel)]="staffForm.isActive" />
+          <span class="toggle-text">Active Employee</span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="closeStaffModal()">Cancel</button>
+      <button class="btn-primary" (click)="saveStaff()">{{ editingStaff ? 'Save Changes' : 'Create Staff' }}</button>
+    </div>
+  </div>
+</div>
+
+<!-- Department Modal -->
+<div class="modal-overlay" *ngIf="showDeptModal" (click)="showDeptModal=false">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>Create Department</h3>
+      <button class="modal-close" (click)="showDeptModal=false">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label>Department Name *</label>
+        <input [(ngModel)]="deptForm.name" placeholder="e.g. Housekeeping" required />
+      </div>
+      <div class="form-group">
+        <label>Description</label>
+        <textarea [(ngModel)]="deptForm.description" placeholder="Brief description…" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showDeptModal=false">Cancel</button>
+      <button class="btn-primary" (click)="saveDepartment()">Create Department</button>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Confirm -->
+<div class="modal-overlay" *ngIf="showDeleteConfirm" (click)="showDeleteConfirm=false">
+  <div class="modal modal-sm" (click)="$event.stopPropagation()">
+    <div class="modal-header danger">
+      <h3>Delete Staff Member</h3>
+      <button class="modal-close" (click)="showDeleteConfirm=false">✕</button>
+    </div>
+    <div class="modal-body">
+      <p>Are you sure you want to permanently delete this staff member? This action cannot be undone.</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showDeleteConfirm=false">Cancel</button>
+      <button class="btn-danger" (click)="deleteStaff()">Delete</button>
+    </div>
+  </div>
+</div>

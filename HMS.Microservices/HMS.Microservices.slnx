@@ -1,0 +1,14 @@
+<Solution>
+  <Project Path="ApiGateway/ApiGateway.csproj" />
+  <Project Path="BillingService/BillingService.csproj" />
+  <Project Path="GuestService/GuestService.csproj" />
+  <Project Path="IdentityService/IdentityService.csproj" />
+  <Project Path="InventoryService/InventoryService.csproj" />
+  <Project Path="NotificationService/NotificationService.csproj" />
+  <Project Path="PricingService/PricingService.csproj" />
+  <Project Path="ReservationService/ReservationService.csproj" />
+  <Project Path="ReservationServiceTests/ReservationServiceTests.csproj" />
+  <Project Path="RoomService/RoomService.csproj" />
+  <Project Path="GuestService.Tests/GuestService.Tests.csproj" />
+  <Project Path="StaffService/StaffService.csproj" />
+</Solution>

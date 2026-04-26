@@ -1,0 +1,215 @@
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfo.cs
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ocelot.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.staticwebassets.endpoints.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.exe
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.deps.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.runtimeconfig.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.Up2Date
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\refint\ApiGateway.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.genruntimeconfig.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ref\ApiGateway.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ocelot.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.staticwebassets.endpoints.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.exe
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.deps.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.runtimeconfig.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfo.cs
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.Up2Date
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\refint\ApiGateway.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.genruntimeconfig.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ref\ApiGateway.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ocelot.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.staticwebassets.endpoints.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.exe
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.deps.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.runtimeconfig.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfo.cs
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.Up2Date
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\refint\ApiGateway.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.genruntimeconfig.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ref\ApiGateway.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ocelot.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.staticwebassets.endpoints.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.exe
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.deps.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.runtimeconfig.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfo.cs
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.Up2Date
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\refint\ApiGateway.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.genruntimeconfig.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ref\ApiGateway.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ocelot.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.staticwebassets.endpoints.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.exe
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.deps.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.runtimeconfig.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.AssemblyInfo.cs
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.csproj.Up2Date
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\refint\ApiGateway.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.pdb
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ApiGateway.genruntimeconfig.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\ApiGateway\obj\Debug\net10.0\ref\ApiGateway.dll

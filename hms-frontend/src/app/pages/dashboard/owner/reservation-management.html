@@ -1,0 +1,308 @@
+<div class="res-section">
+
+  <!-- Toast -->
+  <div class="toast success" *ngIf="successMsg">✅ {{ successMsg }}</div>
+  <div class="toast error" *ngIf="error">❌ {{ error }} <button (click)="error=''">✕</button></div>
+
+  <!-- Header -->
+  <div class="section-header">
+    <div>
+      <h2>Reservation Management</h2>
+      <p class="section-sub">Manage bookings, check availability and create reservations</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn-primary" (click)="openCreateModal()">+ New Reservation</button>
+    </div>
+  </div>
+
+  <!-- KPI Row -->
+  <div class="res-kpi-row">
+    <div class="res-kpi total">
+      <div class="kpi-icon-wrap">🗓️</div>
+      <div><span class="kpi-num">{{ reservations.length }}</span><span class="kpi-lbl">Total</span></div>
+    </div>
+    <div class="res-kpi confirmed">
+      <div class="kpi-icon-wrap">✅</div>
+      <div><span class="kpi-num">{{ confirmedCount }}</span><span class="kpi-lbl">Confirmed</span></div>
+    </div>
+    <div class="res-kpi cancelled">
+      <div class="kpi-icon-wrap">❌</div>
+      <div><span class="kpi-num">{{ cancelledCount }}</span><span class="kpi-lbl">Cancelled</span></div>
+    </div>
+    <div class="res-kpi revenue">
+      <div class="kpi-icon-wrap">💰</div>
+      <div><span class="kpi-num">${{ totalRevenue | number:'1.0-0' }}</span><span class="kpi-lbl">Revenue</span></div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn" [class.active]="activeTab==='reservations'" (click)="activeTab='reservations'">📋 All Reservations</button>
+    <button class="tab-btn" [class.active]="activeTab==='availability'" (click)="activeTab='availability'">🔍 Check Availability</button>
+  </div>
+
+  <!-- ── Reservations Tab ── -->
+  <div *ngIf="activeTab==='reservations'">
+    <div class="filters-row">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" placeholder="Search by guest, room or ID…" [(ngModel)]="searchQuery" (input)="applyFilters()" />
+      </div>
+      <select class="filter-select" [(ngModel)]="filterStatus" (change)="applyFilters()">
+        <option value="">All Statuses</option>
+        <option value="Confirmed">Confirmed</option>
+        <option value="Cancelled">Cancelled</option>
+        <option value="CheckedIn">Checked In</option>
+        <option value="CheckedOut">Checked Out</option>
+      </select>
+      <input type="date" class="filter-select" [(ngModel)]="filterFrom" (change)="applyFilters()" title="From date" />
+      <input type="date" class="filter-select" [(ngModel)]="filterTo" (change)="applyFilters()" title="To date" />
+    </div>
+
+    <div class="loading-state" *ngIf="loading"><div class="spinner"></div><span>Loading reservations…</span></div>
+
+    <div class="table-wrap" *ngIf="!loading">
+      <table class="res-table">
+        <thead>
+          <tr>
+            <th>#ID</th>
+            <th>Guest</th>
+            <th>Room</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Nights</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let r of filtered" class="table-row">
+            <td><span class="res-id">#{{ r.id }}</span></td>
+            <td>
+              <div class="guest-cell">
+                <div class="guest-avatar" [style.background]="'hsl('+((r.guestId*53)%360)+',55%,55%)'">
+                  {{ r.guestName ? r.guestName[0] : '?' }}
+                </div>
+                <span class="guest-name">{{ r.guestName || '—' }}</span>
+              </div>
+            </td>
+            <td><span class="room-chip">🛏️ {{ r.roomNumber }}</span></td>
+            <td>{{ r.checkInDate | date:'MMM d, y' }}</td>
+            <td>{{ r.checkOutDate | date:'MMM d, y' }}</td>
+            <td class="nights-cell">{{ calcNights(r.checkInDate, r.checkOutDate) }}n</td>
+            <td><span class="amount">${{ r.totalAmount | number:'1.2-2' }}</span></td>
+            <td>
+              <span class="status-badge" [ngClass]="r.status.toLowerCase()">{{ r.status }}</span>
+            </td>
+            <td>
+              <button class="icon-btn cancel" *ngIf="r.status==='Confirmed'" (click)="confirmCancel(r.id)" title="Cancel">🚫</button>
+              <span class="no-action" *ngIf="r.status!=='Confirmed'">—</span>
+            </td>
+          </tr>
+          <tr *ngIf="filtered.length===0">
+            <td colspan="9" class="empty-row">No reservations found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ── Availability Tab ── -->
+  <div *ngIf="activeTab==='availability'">
+    <div class="avail-search-card">
+      <h3 class="avail-title">🔍 Search Available Rooms</h3>
+      <div class="avail-form">
+        <div class="avail-field">
+          <label>Check-In</label>
+          <input type="date" [(ngModel)]="availForm.checkIn" />
+        </div>
+        <div class="avail-field">
+          <label>Check-Out</label>
+          <input type="date" [(ngModel)]="availForm.checkOut" />
+        </div>
+        <div class="avail-field">
+          <label>Adults</label>
+          <input type="number" min="1" [(ngModel)]="availForm.adults" />
+        </div>
+        <div class="avail-field">
+          <label>Children</label>
+          <input type="number" min="0" [(ngModel)]="availForm.children" />
+        </div>
+        <div class="avail-btn-row">
+          <button class="btn-primary avail-btn" (click)="searchAvailability()" [disabled]="availLoading">
+            {{ availLoading ? 'Searching…' : '🔍 Search Available Rooms' }}
+          </button>
+        </div>
+      </div>
+      <div class="nights-info" *ngIf="nights > 0">📅 {{ nights }} night{{ nights !== 1 ? 's' : '' }}</div>
+    </div>
+
+    <div class="loading-state" *ngIf="availLoading"><div class="spinner"></div><span>Checking availability…</span></div>
+
+    <div *ngIf="availSearchDone && !availLoading">
+      <div class="avail-results-header">
+        <span class="avail-count">{{ availableRooms.length }} room{{ availableRooms.length !== 1 ? 's' : '' }} available</span>
+      </div>
+      <div class="rooms-grid" *ngIf="availableRooms.length > 0">
+        <div class="room-card" *ngFor="let room of availableRooms">
+          <div class="room-card-top">
+            <div class="room-icon">🛏️</div>
+            <div class="room-info">
+              <div class="room-number">Room {{ room.roomNumber }}</div>
+              <div class="room-type">{{ room.roomTypeName }}</div>
+            </div>
+          </div>
+          <div class="room-card-bottom">
+            <div class="room-price">
+              <span class="price-val">${{ room.price | number:'1.2-2' }}</span>
+              <span class="price-lbl">/ night</span>
+            </div>
+            <div class="room-total" *ngIf="nights > 0">Total: ${{ (room.price * nights) | number:'1.2-2' }}</div>
+            <button class="btn-primary room-book-btn" (click)="openCreateFromRoom(room)">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="empty-avail" *ngIf="availableRooms.length === 0">
+        <div class="empty-icon">🏨</div>
+        <p>No rooms available for the selected dates and guests.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Create Reservation Modal ── -->
+<div class="modal-overlay" *ngIf="showCreateModal" (click)="closeCreateModal()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>New Reservation</h3>
+      <button class="modal-close" (click)="closeCreateModal()">✕</button>
+    </div>
+    <div class="modal-body">
+
+      <!-- Selected room banner (from availability) -->
+      <div class="selected-room-banner" *ngIf="selectedRoom && $any(selectedRoom).price">
+        <span class="room-chip">🛏️ Room {{ selectedRoom.roomNumber }}</span>
+        <span class="room-type-tag">{{ $any(selectedRoom).roomTypeName }}</span>
+        <span class="price-tag">${{ $any(selectedRoom).price }}/night</span>
+      </div>
+
+      <!-- Guest search dropdown -->
+      <div class="form-group">
+        <label>Guest *</label>
+        <div class="dropdown-wrap">
+          <div class="dropdown-input-row">
+            <span class="dd-icon">👤</span>
+            <input
+              class="dd-input"
+              placeholder="Search guest by name or email…"
+              [(ngModel)]="guestSearch"
+              (input)="onGuestSearch()"
+              (focus)="showGuestDropdown=true"
+              autocomplete="off"
+            />
+            <span class="dd-spinner" *ngIf="guestsLoading">⏳</span>
+            <span class="dd-check" *ngIf="selectedGuest">✅</span>
+          </div>
+          <div class="dropdown-list" *ngIf="showGuestDropdown && guestResults.length > 0">
+            <div
+              class="dropdown-item"
+              *ngFor="let g of guestResults"
+              (mousedown)="selectGuest(g)"
+            >
+              <div class="dd-item-avatar" [style.background]="'hsl('+((g.id*47)%360)+',55%,55%)'">
+                {{ g.firstName[0] }}{{ g.lastName[0] }}
+              </div>
+              <div class="dd-item-info">
+                <div class="dd-item-name">{{ g.firstName }} {{ g.lastName }}</div>
+                <div class="dd-item-sub">{{ g.email }}</div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-empty" *ngIf="showGuestDropdown && !guestsLoading && guestResults.length === 0">
+            No guests found
+          </div>
+        </div>
+      </div>
+
+      <!-- Room search dropdown (only when not pre-filled from availability) -->
+      <div class="form-group" *ngIf="!$any(selectedRoom)?.price || !availForm.checkIn">
+        <label>Room *</label>
+        <div class="dropdown-wrap">
+          <div class="dropdown-input-row">
+            <span class="dd-icon">🛏️</span>
+            <input
+              class="dd-input"
+              placeholder="Search room by number or type…"
+              [(ngModel)]="roomSearch"
+              (input)="onRoomSearch()"
+              (focus)="showRoomDropdown=true"
+              autocomplete="off"
+            />
+            <span class="dd-spinner" *ngIf="roomsLoading">⏳</span>
+            <span class="dd-check" *ngIf="selectedRoom">✅</span>
+          </div>
+          <div class="dropdown-list" *ngIf="showRoomDropdown && roomResults.length > 0">
+            <div
+              class="dropdown-item"
+              *ngFor="let r of roomResults"
+              (mousedown)="selectRoom(r)"
+            >
+              <div class="dd-room-icon">🛏️</div>
+              <div class="dd-item-info">
+                <div class="dd-item-name">Room {{ r.roomNumber }}</div>
+                <div class="dd-item-sub">{{ r.roomTypeName }} · <span [class.avail-yes]="r.isAvailable" [class.avail-no]="!r.isAvailable">{{ r.isAvailable ? 'Available' : 'Occupied' }}</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-empty" *ngIf="showRoomDropdown && !roomsLoading && roomResults.length === 0">
+            No rooms found
+          </div>
+        </div>
+      </div>
+
+      <!-- Dates -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Check-In Date *</label>
+          <input type="date" [(ngModel)]="createForm.checkInDate" (change)="onModalDateChange()" />
+        </div>
+        <div class="form-group">
+          <label>Check-Out Date *</label>
+          <input type="date" [(ngModel)]="createForm.checkOutDate" (change)="onModalDateChange()" />
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="booking-summary" *ngIf="selectedGuest && selectedRoom && createForm.checkInDate && createForm.checkOutDate">
+        <div class="summary-row"><span>Guest</span><strong>{{ selectedGuest.firstName }} {{ selectedGuest.lastName }}</strong></div>
+        <div class="summary-row"><span>Room</span><strong>Room {{ selectedRoom.roomNumber }}</strong></div>
+        <div class="summary-row"><span>Duration</span><strong>{{ modalNights }} night{{ modalNights !== 1 ? 's' : '' }}</strong></div>
+        <div class="summary-row total-row" *ngIf="$any(selectedRoom).price">
+          <span>Est. Total</span><strong>${{ ($any(selectedRoom).price * modalNights) | number:'1.2-2' }}</strong>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="closeCreateModal()">Cancel</button>
+      <button class="btn-primary" (click)="saveReservation()">Create Reservation</button>
+    </div>
+  </div>
+</div>
+
+<!-- Cancel Confirm Modal -->
+<div class="modal-overlay" *ngIf="showCancelConfirm" (click)="showCancelConfirm=false">
+  <div class="modal modal-sm" (click)="$event.stopPropagation()">
+    <div class="modal-header danger">
+      <h3>Cancel Reservation</h3>
+      <button class="modal-close" (click)="showCancelConfirm=false">✕</button>
+    </div>
+    <div class="modal-body">
+      <p>Are you sure you want to cancel reservation <strong>#{{ cancellingId }}</strong>? This action cannot be undone.</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showCancelConfirm=false">Keep It</button>
+      <button class="btn-danger" (click)="cancelReservation()">Yes, Cancel</button>
+    </div>
+  </div>
+</div>

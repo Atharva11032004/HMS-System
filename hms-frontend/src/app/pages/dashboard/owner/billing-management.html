@@ -1,0 +1,243 @@
+<div class="bm-section">
+
+  <!-- Toasts -->
+  <div class="toast success" *ngIf="successMsg">✅ {{ successMsg }}</div>
+  <div class="toast error-toast" *ngIf="errorMsg">❌ {{ errorMsg }} <button (click)="errorMsg=''">✕</button></div>
+
+  <!-- Header -->
+  <div class="section-header">
+    <div>
+      <h2>Billing Management</h2>
+      <p class="section-sub">Manage bills, line items and payments</p>
+    </div>
+    <button class="btn-primary" (click)="openCreateBill()">+ Create Bill</button>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card blue">
+      <div class="kpi-icon">🧾</div>
+      <div><span class="kpi-num">{{ bills.length }}</span><span class="kpi-lbl">Total Bills</span></div>
+    </div>
+    <div class="kpi-card green">
+      <div class="kpi-icon">💰</div>
+      <div><span class="kpi-num">${{ totalRevenue | number:'1.0-0' }}</span><span class="kpi-lbl">Total Revenue</span></div>
+    </div>
+    <div class="kpi-card purple">
+      <div class="kpi-icon">📋</div>
+      <div><span class="kpi-num">{{ totalLines }}</span><span class="kpi-lbl">Total Line Items</span></div>
+    </div>
+    <div class="kpi-card gold">
+      <div class="kpi-icon">💳</div>
+      <div><span class="kpi-num">{{ bills.length }}</span><span class="kpi-lbl">Payments Due</span></div>
+    </div>
+  </div>
+
+  <!-- Bills Table -->
+  <div class="loading-state" *ngIf="loading"><div class="spinner"></div><span>Loading bills…</span></div>
+
+  <div class="table-wrap" *ngIf="!loading">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>#ID</th>
+          <th>Reservation / Guest</th>
+          <th>Line Items</th>
+          <th>Total Amount</th>
+          <th>Created At</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let b of bills">
+          <td><span class="bill-id">#{{ b.id }}</span></td>
+          <td>
+            <div class="res-info">
+              <span class="res-chip">🗓️ Res #{{ b.reservationId }}</span>
+            </div>
+          </td>
+          <td><span class="lines-badge">{{ b.lines.length }} item{{ b.lines.length !== 1 ? 's' : '' }}</span></td>
+          <td><span class="amount">${{ b.totalAmount | number:'1.2-2' }}</span></td>
+          <td class="date-cell">{{ b.createdAt | date:'MMM d, y, h:mm a' }}</td>
+          <td class="actions-cell">
+            <button class="icon-btn view"     (click)="openDetail(b)"   title="View Details">👁️</button>
+            <button class="icon-btn add-line" (click)="openAddLine(b)"  title="Add Line Item">➕</button>
+            <button class="icon-btn pay"      (click)="openPayment(b)"  title="Record Payment">💳</button>
+          </td>
+        </tr>
+        <tr *ngIf="bills.length===0">
+          <td colspan="6" class="empty-row">No bills found</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- ── Create Bill Modal ── -->
+<div class="modal-overlay" *ngIf="showCreateBillModal" (click)="showCreateBillModal=false">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>🧾 Create Bill</h3>
+      <button class="modal-close" (click)="showCreateBillModal=false">✕</button>
+    </div>
+    <div class="modal-body">
+
+      <!-- Reservation searchable dropdown -->
+      <div class="form-group">
+        <label>Reservation (Guest Name) *</label>
+        <div class="dropdown-wrap">
+          <div class="dropdown-input-row">
+            <span class="dd-icon">🗓️</span>
+            <input
+              class="dd-input"
+              placeholder="Search by guest name or reservation #…"
+              [(ngModel)]="reservationSearch"
+              (input)="onReservationSearch()"
+              (focus)="showReservationDropdown=true"
+              autocomplete="off"
+            />
+            <span *ngIf="reservationsLoading" class="dd-spinner">⏳</span>
+            <span *ngIf="selectedReservation" class="dd-check">✅</span>
+          </div>
+          <div class="dropdown-list" *ngIf="showReservationDropdown && filteredReservations.length > 0">
+            <div
+              class="dropdown-item"
+              *ngFor="let r of filteredReservations"
+              (mousedown)="selectReservation(r)"
+            >
+              <div class="dd-item-avatar" [style.background]="'hsl('+((r.id*53)%360)+',55%,55%)'">
+                {{ r.guestName ? r.guestName[0] : '?' }}
+              </div>
+              <div class="dd-item-info">
+                <div class="dd-item-name">{{ r.guestName }} — Room {{ r.roomNumber }}</div>
+                <div class="dd-item-sub">Res #{{ r.id }} · {{ r.checkInDate | date:'MMM d' }} → {{ r.checkOutDate | date:'MMM d, y' }} · <span [class.status-confirmed]="r.status==='Confirmed'" [class.status-other]="r.status!=='Confirmed'">{{ r.status }}</span></div>
+              </div>
+              <span class="dd-amount">${{ r.totalAmount | number:'1.0-0' }}</span>
+            </div>
+          </div>
+          <div class="dropdown-empty" *ngIf="showReservationDropdown && !reservationsLoading && filteredReservations.length===0">
+            No reservations found
+          </div>
+        </div>
+        <!-- Selected reservation summary -->
+        <div class="selected-res-banner" *ngIf="selectedReservation">
+          <span>✅ Reservation #{{ selectedReservation.id }}</span>
+          <span>{{ selectedReservation.guestName }}</span>
+          <span>Room {{ selectedReservation.roomNumber }}</span>
+          <span class="banner-amount">${{ selectedReservation.totalAmount | number:'1.2-2' }}</span>
+        </div>
+      </div>
+
+      <!-- Line Items -->
+      <div class="lines-section">
+        <div class="lines-header">
+          <label>Line Items *</label>
+          <button class="btn-add-line" (click)="addLine()">+ Add Line</button>
+        </div>
+        <div class="line-item" *ngFor="let line of billLines; let i = index">
+          <input class="line-desc" type="text"   [(ngModel)]="line.description" placeholder="e.g. Room charges" />
+          <input class="line-amt"  type="number" min="0" step="0.01" [(ngModel)]="line.amount" placeholder="0.00" />
+          <button class="btn-remove-line" (click)="removeLine(i)" [disabled]="billLines.length===1">✕</button>
+        </div>
+      </div>
+
+      <div class="bill-total-row">
+        <span>Total</span>
+        <strong>${{ billFormTotal | number:'1.2-2' }}</strong>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showCreateBillModal=false">Cancel</button>
+      <button class="btn-primary" (click)="saveBill()">Create Bill</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Add Line Modal ── -->
+<div class="modal-overlay" *ngIf="showAddLineModal" (click)="showAddLineModal=false">
+  <div class="modal modal-sm" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>➕ Add Line to Bill #{{ addingToBillId }}</h3>
+      <button class="modal-close" (click)="showAddLineModal=false">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label>Description *</label>
+        <input type="text" [(ngModel)]="lineForm.description" placeholder="e.g. Room Service" />
+      </div>
+      <div class="form-group">
+        <label>Amount *</label>
+        <input type="number" min="0" step="0.01" [(ngModel)]="lineForm.amount" placeholder="0.00" />
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showAddLineModal=false">Cancel</button>
+      <button class="btn-primary" (click)="saveAddLine()">Add Line</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Bill Detail Modal ── -->
+<div class="modal-overlay" *ngIf="showDetailModal" (click)="showDetailModal=false">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>🧾 Bill #{{ detailBill?.id }} — Reservation #{{ detailBill?.reservationId }}</h3>
+      <button class="modal-close" (click)="showDetailModal=false">✕</button>
+    </div>
+    <div class="modal-body" *ngIf="detailBill">
+      <div class="detail-meta">Created: {{ detailBill.createdAt | date:'MMM d, y, h:mm a' }}</div>
+      <table class="lines-table">
+        <thead><tr><th>#</th><th>Description</th><th>Amount</th></tr></thead>
+        <tbody>
+          <tr *ngFor="let l of detailBill.lines; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ l.description }}</td>
+            <td class="line-amount">${{ l.amount | number:'1.2-2' }}</td>
+          </tr>
+          <tr *ngIf="detailBill.lines.length===0">
+            <td colspan="3" class="empty-row">No line items</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr class="total-row">
+            <td colspan="2"><strong>Total</strong></td>
+            <td class="line-amount"><strong>${{ detailBill.totalAmount | number:'1.2-2' }}</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showDetailModal=false">Close</button>
+      <button class="btn-primary" (click)="showDetailModal=false; openPayment(detailBill!)">💳 Pay Now</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Payment Modal ── -->
+<div class="modal-overlay" *ngIf="showPaymentModal" (click)="showPaymentModal=false">
+  <div class="modal modal-sm" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h3>💳 Record Payment — Bill #{{ paymentForm.billId }}</h3>
+      <button class="modal-close" (click)="showPaymentModal=false">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label>Amount *</label>
+        <input type="number" min="0" step="0.01" [(ngModel)]="paymentForm.amount" />
+      </div>
+      <div class="form-group">
+        <label>Card Number *</label>
+        <input type="text" [(ngModel)]="paymentForm.cardNumber" placeholder="1234567890123456" maxlength="16" />
+      </div>
+      <div class="payment-summary">
+        <span>Bill #{{ paymentForm.billId }}</span>
+        <strong>${{ paymentForm.amount | number:'1.2-2' }}</strong>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" (click)="showPaymentModal=false">Cancel</button>
+      <button class="btn-primary" (click)="savePayment()">Confirm Payment</button>
+    </div>
+  </div>
+</div>

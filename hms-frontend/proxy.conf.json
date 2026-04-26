@@ -1,0 +1,58 @@
+{
+  "/api/identity": {
+    "target": "http://localhost:5220",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/identity": "" }
+  },
+  "/api/reservation": {
+    "target": "http://localhost:5092",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/reservation": "" }
+  },
+  "/api/guest": {
+    "target": "http://localhost:5281",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/guest": "" }
+  },
+  "/api/room": {
+    "target": "http://localhost:5187",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/room": "" }
+  },
+  "/api/pricing": {
+    "target": "http://localhost:5032",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/pricing": "" }
+  },
+  "/api/notification": {
+    "target": "http://localhost:5022",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/inventory": {
+    "target": "http://localhost:5130",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/billing": {
+    "target": "http://localhost:5114",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/billing": "" }
+  },
+  "/api/staff": {
+    "target": "http://localhost:5183",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/departments": {
+    "target": "http://localhost:5183",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

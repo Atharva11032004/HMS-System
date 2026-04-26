@@ -1,0 +1,62 @@
+<div class="auth-page">
+  <div class="auth-left">
+    <div class="auth-left-content">
+      <div class="brand">
+        <div class="brand-icon">H</div>
+        <span>LuxeStay HMS</span>
+      </div>
+      <h2>Join hundreds of hotels running smarter operations with LuxeStay HMS.</h2>
+      <div class="auth-features">
+        <div class="af-item"><span>✓</span> Free 14-day trial, no credit card</div>
+        <div class="af-item"><span>✓</span> Full access to all modules</div>
+        <div class="af-item"><span>✓</span> Onboarding support included</div>
+        <div class="af-item"><span>✓</span> Cancel anytime</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-right">
+    <div class="auth-card">
+      <div class="card-header">
+        <h2>Create your account</h2>
+        <p>Register as a Receptionist — Managers and Owners are created by administrators</p>
+      </div>
+
+      @if (error) {
+        <div class="alert alert-error">⚠ {{ error }}</div>
+      }
+      @if (success) {
+        <div class="alert alert-success">✓ {{ success }}</div>
+      }
+
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div class="field">
+          <label>Email address</label>
+          <input type="email" [(ngModel)]="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label>Password <span class="hint">— min 6 characters</span></label>
+          <input type="password" [(ngModel)]="password" name="password" required minlength="6" placeholder="••••••••" />
+        </div>
+        <div class="field">
+          <label>Role</label>
+          <div class="role-grid">
+            @for (r of roles; track r.value) {
+              <label class="role-option" [class.selected]="role === r.value">
+                <input type="radio" [(ngModel)]="role" name="role" [value]="r.value" />
+                <span class="role-icon">{{ r.icon }}</span>
+                <span class="role-label">{{ r.label }}</span>
+              </label>
+            }
+          </div>
+        </div>
+        <button type="submit" class="btn-submit" [disabled]="loading || !f.valid">
+          @if (loading) { <span class="spinner"></span> Creating account… }
+          @else { Create Account }
+        </button>
+      </form>
+
+      <p class="switch">Already have an account? <a routerLink="/sign-in">Sign in</a></p>
+    </div>
+  </div>
+</div>

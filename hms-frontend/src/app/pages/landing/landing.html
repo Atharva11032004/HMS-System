@@ -1,0 +1,240 @@
+<div class="page">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">H</div>
+      <span class="brand-name">LuxeStay <span class="brand-thin">HMS</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#stats">Why Us</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+    </ul>
+    <div class="nav-actions">
+      @if (auth.isLoggedIn()) {
+        <button class="btn btn-outline" (click)="auth.logout()">Logout</button>
+      } @else {
+        <a routerLink="/sign-in" class="btn btn-outline">Sign In</a>
+        <a routerLink="/sign-up" class="btn btn-primary">Get Started</a>
+      }
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="particles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">⭐ Trusted by 500+ Hotels Worldwide</div>
+      <h1>The Smarter Way to<br /><span class="gradient-text">Manage Your Hotel</span></h1>
+      <p>Streamline operations, delight guests, and grow revenue — all from one powerful platform built for modern hospitality.</p>
+      <div class="hero-cta">
+        @if (!auth.isLoggedIn()) {
+          <a routerLink="/sign-up" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a routerLink="/sign-in" class="btn btn-ghost btn-lg">Sign In →</a>
+        } @else {
+          <button class="btn btn-primary btn-lg" (click)="auth.redirectToDashboard()">Go to Dashboard →</button>
+        }
+      </div>
+      <div class="hero-trust">
+        <span>✓ No credit card required</span>
+        <span>✓ 14-day free trial</span>
+        <span>✓ Cancel anytime</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="dashboard-mock">
+        <div class="mock-header">
+          <div class="mock-dot red"></div>
+          <div class="mock-dot yellow"></div>
+          <div class="mock-dot green"></div>
+          <span>HMS Dashboard</span>
+        </div>
+        <div class="mock-body">
+          <div class="mock-stat-row">
+            <div class="mock-stat blue">
+              <div class="mock-stat-num">142</div>
+              <div class="mock-stat-label">Rooms</div>
+            </div>
+            <div class="mock-stat green">
+              <div class="mock-stat-num">89%</div>
+              <div class="mock-stat-label">Occupancy</div>
+            </div>
+            <div class="mock-stat purple">
+              <div class="mock-stat-num">$24k</div>
+              <div class="mock-stat-label">Revenue</div>
+            </div>
+          </div>
+          <div class="mock-chart">
+            <div class="mock-bar" style="height:55%"></div>
+            <div class="mock-bar" style="height:70%"></div>
+            <div class="mock-bar" style="height:45%"></div>
+            <div class="mock-bar" style="height:85%"></div>
+            <div class="mock-bar" style="height:65%"></div>
+            <div class="mock-bar" style="height:90%"></div>
+            <div class="mock-bar active" style="height:78%"></div>
+          </div>
+          <div class="mock-list">
+            <div class="mock-row"><span class="mock-avatar">JD</span><span class="mock-name">John Doe</span><span class="mock-tag check-in">Check-in</span></div>
+            <div class="mock-row"><span class="mock-avatar">SM">SM</span><span class="mock-name">Sara Miller</span><span class="mock-tag reserved">Reserved</span></div>
+            <div class="mock-row"><span class="mock-avatar">AK">AK</span><span class="mock-name">Ali Khan</span><span class="mock-tag check-out">Check-out</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="stat-item">
+      <div class="stat-num">500<span>+</span></div>
+      <div class="stat-label">Hotels Using HMS</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">2M<span>+</span></div>
+      <div class="stat-label">Reservations Managed</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">99.9<span>%</span></div>
+      <div class="stat-label">Uptime SLA</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-num">4.9<span>★</span></div>
+      <div class="stat-label">Average Rating</div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <div class="section-tag">FEATURES</div>
+      <h2>Everything You Need to Run a World-Class Hotel</h2>
+      <p>From front desk to back office — HMS covers every corner of your operations.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card featured">
+        <div class="feature-icon">🛏️</div>
+        <h3>Room Management</h3>
+        <p>Real-time room availability, housekeeping status, and maintenance tracking across all floors.</p>
+        <ul class="feature-list">
+          <li>✓ Live availability map</li>
+          <li>✓ Housekeeping workflows</li>
+          <li>✓ Maintenance alerts</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📋</div>
+        <h3>Reservations</h3>
+        <p>Handle bookings, modifications, check-ins and check-outs with a single click.</p>
+        <ul class="feature-list">
+          <li>✓ Drag-and-drop calendar</li>
+          <li>✓ OTA channel sync</li>
+          <li>✓ Group bookings</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <h3>Billing & Invoicing</h3>
+        <p>Automated invoicing, split billing, and payment tracking for every guest stay.</p>
+        <ul class="feature-list">
+          <li>✓ Auto-generated invoices</li>
+          <li>✓ Multi-currency support</li>
+          <li>✓ Payment gateway ready</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👥</div>
+        <h3>Guest Profiles</h3>
+        <p>Build rich guest histories, preferences, and loyalty data to personalise every stay.</p>
+        <ul class="feature-list">
+          <li>✓ Stay history</li>
+          <li>✓ Preference tracking</li>
+          <li>✓ Loyalty tiers</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📦</div>
+        <h3>Inventory Control</h3>
+        <p>Track amenities, linens, minibar stock and supplies across all departments.</p>
+        <ul class="feature-list">
+          <li>✓ Low-stock alerts</li>
+          <li>✓ Supplier management</li>
+          <li>✓ Usage analytics</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔔</div>
+        <h3>Notifications</h3>
+        <p>Automated guest communications — confirmations, reminders, and feedback requests.</p>
+        <ul class="feature-list">
+          <li>✓ Email & SMS alerts</li>
+          <li>✓ Staff task notifications</li>
+          <li>✓ Custom templates</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header light">
+      <div class="section-tag">TESTIMONIALS</div>
+      <h2>Loved by Hotel Managers Everywhere</h2>
+      <p style="color:rgba(255,255,255,.6);font-size:.95rem">Real stories from real hoteliers</p>
+    </div>
+
+    <div class="testimonial-slider">
+      <button class="slider-btn prev" (click)="prev()">&#8592;</button>
+
+      <div class="testimonials-track">
+        @for (t of visibleTestimonials(); track t.name; let i = $index) {
+          <div class="testimonial-card" [class.center-card]="i === 1" [class.slide-in]="!isAnimating">
+            <div class="quote-icon">❝</div>
+            <div class="stars">★★★★★</div>
+            <p>{{ t.text }}</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">{{ t.initials }}</div>
+              <div>
+                <strong>{{ t.name }}</strong>
+                <span>{{ t.role }}</span>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+
+      <button class="slider-btn next" (click)="next()">&#8594;</button>
+    </div>
+
+    <div class="slider-dots">
+      @for (t of testimonials; track t.name; let i = $index) {
+        <button class="dot" [class.active]="i === activeIndex" (click)="goTo(i)"></button>
+      }
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <h2>Ready to Transform Your Hotel Operations?</h2>
+    <p>Join hundreds of hotels already running smarter with LuxeStay HMS.</p>
+    @if (!auth.isLoggedIn()) {
+      <a routerLink="/sign-up" class="btn btn-white btn-lg">Start Your Free Trial</a>
+    }
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-brand">
+      <div class="brand-icon small">H</div>
+      <span>LuxeStay HMS</span>
+    </div>
+    <p>© 2025 LuxeStay HMS. Built with Angular + .NET Microservices.</p>
+  </footer>
+
+</div>

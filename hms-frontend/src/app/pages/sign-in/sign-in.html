@@ -1,0 +1,46 @@
+<div class="auth-page">
+  <div class="auth-left">
+    <div class="auth-left-content">
+      <div class="brand">
+        <div class="brand-icon">H</div>
+        <span>LuxeStay HMS</span>
+      </div>
+      <h2>"Hospitality is making your guests feel at home, even when you wish they were."</h2>
+      <div class="auth-features">
+        <div class="af-item"><span>🛏️</span> Room & Reservation Management</div>
+        <div class="af-item"><span>💳</span> Automated Billing</div>
+        <div class="af-item"><span>📊</span> Real-time Analytics</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-right">
+    <div class="auth-card">
+      <div class="card-header">
+        <h2>Welcome back</h2>
+        <p>Sign in to your HMS account</p>
+      </div>
+
+      @if (error) {
+        <div class="alert alert-error">⚠ {{ error }}</div>
+      }
+
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div class="field">
+          <label>Email address</label>
+          <input type="email" [(ngModel)]="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" [(ngModel)]="password" name="password" required placeholder="••••••••" />
+        </div>
+        <button type="submit" class="btn-submit" [disabled]="loading || !f.valid">
+          @if (loading) { <span class="spinner"></span> Signing in… }
+          @else { Sign In }
+        </button>
+      </form>
+
+      <p class="switch">Don't have an account? <a routerLink="/sign-up">Create one</a></p>
+    </div>
+  </div>
+</div>

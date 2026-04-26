@@ -1,0 +1,371 @@
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case Study\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case Study Copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case Study copy copy\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case Study 4 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case study 5 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case Study 6 copies'\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.Development.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\appsettings.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.staticwebassets.endpoints.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.exe
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.deps.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.runtimeconfig.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.AssemblyReference.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfoInputs.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.AssemblyInfo.cs
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\scopedcss\bundle\NotificationService.styles.css
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.development.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\swae.build.ex.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\Notifica.A960C9D4.Up2Date
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\refint\NotificationService.dll
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.pdb
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\NotificationService.genruntimeconfig.cache
+C:\Capgemini\Case study 7 copies\HMS.Microservices\NotificationService\obj\Debug\net10.0\ref\NotificationService.dll
